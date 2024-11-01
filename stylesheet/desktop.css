@@ -74,7 +74,9 @@ td{
 }
 
 tr{
-    background-color: rgb(63, 121, 208)
+    background-color: rgb(4, 5, 7);
+    color: aliceblue;
+   
     
     
 }
