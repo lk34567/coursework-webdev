@@ -1,31 +1,56 @@
 h1 a{
     font-size: 1em;
-    color: #000;
+    color: #0b0a0c;
+
+   
     
     
    
 }
 
 
+nav ul {
+    padding-right: 0;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+nav ul li {
+    display: row;
+    border: solid;
+    color: rgb(44, 190, 178);
+    padding:5px
+    
+}
 
 table{
-    width:100%
+    width:auto
     
+
+    
+    
+
 }
 
 td{
     padding:10px 4px;
     text-align: center
-
+    
+    
     
 
     
 }
 
 tr{
-    background-color: aqua
-    
-    
+    background-color: rgb(63, 121, 208)
     
     
 }
+
+.resize.img{
+    width:100%
+    
+}
+
