@@ -35,6 +35,17 @@ body{
     
  }
 
+ .space{
+    text-align: center;
+
+ }
+
+ .cent{
+    text-align: center;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
  .news{
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
