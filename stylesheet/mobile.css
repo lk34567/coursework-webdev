@@ -43,7 +43,10 @@ body{
  .cent{
     text-align: center;
     font-size: medium;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+    
  }
 
  .news{
@@ -54,6 +57,8 @@ body{
     
     
  }
+
+
 
  #logo{
 text-align: center;
