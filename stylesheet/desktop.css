@@ -1,23 +1,20 @@
 
 h1 a{
-    font-size: 3em;
+    font-size: 2em;
     color: #502b0c;
     border-style: none;
-    display:inline-flex;
+    display:flex;
 
+ 
 
     
-   
-   
-    
-    
-   
 }
+
 
 ul{
     list-style-type: none;
     display:flex;
-    gap:2px;
+  
     padding:2px;
     font-size: 1em;
     
@@ -28,18 +25,18 @@ nav ul {
     padding-right: 0;
     flex-direction: row;
     margin: 16px;
-    color: #382406;
+    color: #f1efed;
     font-size: 20px;
-    gap: 1em;
+    
     
 }
 
 
 nav ul li {
     display: row;
-   
-    border-color: #e4e0da;
-    color: rgb(54, 29, 4);
+    background-color:  rgb(59, 39, 14);
+    border-color: #120c02;
+    color: #52300b;
     padding:5px;
     text-align: center;
     
@@ -48,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #472705;
+    color: #f6f5f5;
     display:flex;
     text-align: center;
 

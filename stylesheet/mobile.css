@@ -7,20 +7,15 @@ body{
  }
  
  
- .container{
-    width: 100%;
-    
-    
  
-   
-}
+
 
 
     
 
 .right{
-    width:110px;
-
+    width: 120px;
+     gap:1em;
     float: right;
     
 }
@@ -45,6 +40,7 @@ body{
     font-size: 2em;
     color: white;
     background-color: rgb(62, 31, 7);
+  
  }
 
 .T{
@@ -88,12 +84,7 @@ body{
 
 
 
- .logo{
-text-align: center;
-font-size: 2em;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
- }
 
 
 table{
@@ -126,7 +117,7 @@ table{
      size: 5em;
      background-color: rgb(59, 39, 14);
      font-style: italic;
-     padding: 2px;
+     padding: 5px;
      text-align:center
  }
 
