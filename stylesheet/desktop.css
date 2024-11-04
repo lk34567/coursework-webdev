@@ -1,9 +1,13 @@
 
 h1 a{
-    font-size: 2em;
-    color: #ece7f2;
-    background-color: #0b0a0c;
+    font-size: 3em;
+    color: #502b0c;
+    border-style: none;
+    display:inline-flex;
 
+
+    
+   
    
     
     
@@ -11,10 +15,11 @@ h1 a{
 }
 
 ul{
-    list-style:none;
-    display: flex;
+    list-style-type: none;
+    display:flex;
     gap:2px;
     padding:2px;
+    font-size: 1em;
     
    
 }
@@ -22,9 +27,9 @@ ul{
 nav ul {
     padding-right: 0;
     flex-direction: row;
-    margin: auto;
-    color: #ece7f2;
-    background-color: #0b0a0c;
+    margin: 16px;
+    color: #382406;
+    font-size: 20px;
     gap: 1em;
     
 }
@@ -32,9 +37,9 @@ nav ul {
 
 nav ul li {
     display: row;
-    border-style: solid;
-    border-color: #ece7f2;
-    color: rgb(219, 230, 230);
+   
+    border-color: #e4e0da;
+    color: rgb(54, 29, 4);
     padding:5px;
     text-align: center;
     
@@ -43,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #ece7f2;
+    color: #472705;
     display:flex;
     text-align: center;
 
@@ -75,7 +80,7 @@ td{
 }
 
 tr{
-    background-color: rgb(4, 5, 7);
+    background-color: rgb(85, 39, 6);
     color: aliceblue;
    
     
