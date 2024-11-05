@@ -7,9 +7,45 @@ body{
  }
  
  
- 
+ ul{
+    list-style-type: none;
+    display:flex;
+  
+    padding:2px;
+    font-size: 1em;
+    
+   
+}
+
+nav ul {
+    padding-right: 0;
+    flex-direction: row;
+    margin: 16px;
+    color: #f1efed;
+    font-size: 20px;
+    
+    
+}
 
 
+nav ul li {
+    display: row;
+    background-color:  rgb(59, 39, 14);
+    border-color: #120c02;
+    color: #52300b;
+    padding:5px;
+    text-align: center;
+    
+    
+    
+}
+
+nav ul li a{
+    color: #f6f5f5;
+    display:flex;
+    text-align: center;
+
+}
 
     
 
@@ -88,7 +124,7 @@ body{
 
 
 table{
-    width:100%
+    width:flex;
     
     
  
