@@ -8,9 +8,10 @@ let imageAr = [
 ]
 
 let currentIndex = 0;
+setInterval(chgImage,200)
 
 function chgImage () {
-    setInterval(chgImage,200)
+   
     currentIndex++;
     if (currentIndex >= imageAr.length){
         currentIndex = 0;
