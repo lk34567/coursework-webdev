@@ -14,7 +14,23 @@ body{
     
 }
 
+.slider{
+    position: relative;
+    max-width: 100%;
+    min-width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
 
+.banner{
+    display:flex;
+    transform: transform 0.6s ease-in-out;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
 
 
  .top{
