@@ -1,10 +1,10 @@
 let imageAr = [
-'images/banner1.png',
-'images/banner2.png',
- 'images/banner3.png',
-'images/banner4.png',
- 'images/banner5.png',
-'images/banner6.png'
+'images/ban1.jpg',
+'images/ban2.jpg',
+ 'images/ban3.jpg',
+'images/ban4.jpg',
+ 'images/ban5.jpg',
+'images/ban6.jpg'
 ]
 
 let currentIndex = 0;
@@ -17,5 +17,5 @@ function chgImage () {
         currentIndex = 0;
        
     }
-    document.getElementById('images').setAttribute('src', imageAr[cuurentindex]);
+    document.getElementById('Images').setAttribute('src', imageAr[curentindex]);
 }  
