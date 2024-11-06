@@ -14,6 +14,15 @@ body{
     
 }
 
+.intro{
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+    border: 10px;
+    margin: 10px;
+    border-color: black;
+    color: rgb(15, 12, 8);
+}
 
 
 
@@ -46,6 +55,21 @@ body{
     color: white;
     background-color: rgb(59, 39, 14);
 
+
+}
+
+.sideleft{
+    float: left;
+    width:50%;
+    height:auto;
+    
+
+}
+
+.sideright{
+    float: right;
+    width:50%;
+    height:auto;
 
 }
 
