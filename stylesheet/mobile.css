@@ -53,14 +53,14 @@ body{
  
  .space{
     text-align: center;
-    font-size: 17px;
+    font-size: 2em;
 
 
  }
 
  .cent{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 
@@ -70,7 +70,7 @@ body{
  .news{
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1em;
+    font-size: 14px;
     color: rgb(95, 49, 2);
     
     
