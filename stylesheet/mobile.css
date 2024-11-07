@@ -141,10 +141,13 @@ table{
  }
  footer{
      color: rgb(243, 246, 240);
-     size: 5em;
+     font-size: 1em;
      background-color: rgb(59, 39, 14);
      font-style: italic;
      padding: 5px;
-     text-align:center
+     margin: auto;
+    
  }
 
+
+ 
