@@ -66,6 +66,16 @@ body{
     
 }
 
+
+
+.collegemap{
+
+    position: center;
+    width: 700px;
+    height: auto;;
+
+}
+
 .sideleft{
     float: left;
     width:50%;
@@ -139,6 +149,16 @@ table{
    
  
  }
+
+
+ .resize{
+    width: 100%;
+    height:auto;
+    border: solid;
+   border-color: black;
+   
+}
+    
  footer{
      color: rgb(243, 246, 240);
      font-size: 1em;
@@ -146,6 +166,7 @@ table{
      font-style: italic;
      padding: 5px;
      margin: auto;
+    
     
  }
 
