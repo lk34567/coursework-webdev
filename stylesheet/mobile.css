@@ -126,12 +126,30 @@ body{
 
 table{
     width:flex;
-    
-    
- 
-    
-    
 }
+
+nav{
+   size: auto;
+}
+    
+
+
+ul{
+    list-style-type: none;
+    display:flex;
+    
+    padding:2px;
+   
+    
+   
+}
+
+
+    
+
+
+
+
  
  tr{
      padding:10px 4px;
