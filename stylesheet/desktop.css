@@ -27,6 +27,10 @@ h1 a{
     text-align: center;
 }
 
+nav li a:hover{
+    color: #502b0c;
+}
+
 
 
 ul{
