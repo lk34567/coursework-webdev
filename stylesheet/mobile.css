@@ -177,6 +177,11 @@ nav ul li a{
 
 }
 
+.right{
+    float: right;
+    width:90px;
+    height:auto;
+}
     
     
  
