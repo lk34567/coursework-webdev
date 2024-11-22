@@ -18,3 +18,5 @@ let imageAr = [
     document.getElementById('Images').setAttribute('src', imageAr[currentCounter]);
   }
   
+  
+  

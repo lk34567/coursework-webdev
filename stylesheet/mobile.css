@@ -54,6 +54,11 @@ body{
 
  nav{
     width:100%;
+    background-color: rgb(59, 39, 14);
+    
+   
+  
+
  }
 
 
@@ -81,9 +86,6 @@ nav ul {
 
 nav ul li {
     display: row;
-    background-color:  rgb(59, 39, 14);
-    border-color: #120c02;
-    color: #52300b;
     padding:5px;
     text-align: center;
     
