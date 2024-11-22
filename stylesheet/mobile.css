@@ -35,7 +35,10 @@ body{
 
 
 
- 
+
+ nav{
+    width:100%;
+ }
 
 
 
@@ -85,14 +88,7 @@ nav ul li a{
 
 
 
-
-
-
-
-
-
-
- .top{
+.top{
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
@@ -198,6 +194,9 @@ nav ul li a{
  }
 
 
+ table{
+    width:flex;
+}
 
 
 
@@ -205,14 +204,79 @@ nav ul li a{
 
 
 
- .resize{
+
+ 
+ tr{
+     padding:10px 4px;
+     text-align: center
+     
+     
+ }
+ td{
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-style: solid;
+     border-color: rgb(51, 33, 7);
+   
+ 
+ }
+
+
+.cont{
+    position:relative;
+    text-align: center;
+   
+
+    
+    
+}
+
+.center{
+    position: absolute;
+    
+    bottom: 10%;
+    left:30%;
+    color: #f2f0ee;
+  font-size: 60px;
+ 
+}
+
+
+
+
+.cour{
+    position: left;
+    width: 650px;
+    height: auto;;
+    border-style:solid;
+    border-color: #120c02;
+    padding: 5px;
+    
+
+}
+
+.des{
+    position: right;
+    width: 650px;
+    height: auto;;
+    border-style:solid;
+    border-color: #120c02;
+    padding: 5px;
+    
+
+}
+
+
+.resize{
     width: 100%;
     height:auto;
     border: solid;
    border-color: black;
+
    
 }
-
 
     
  footer{
