@@ -1,6 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     margin: 0;
     padding:0;
     background-color: rgb(248, 246, 243);
@@ -13,6 +13,8 @@ body{
     margin: auto;
 }
 
+
+ 
 
  
  
@@ -149,6 +151,18 @@ nav ul li a{
     
 }
 
+.stud{
+    position: center;
+    width: 700px;
+    height: auto;;
+
+}
+
+.sign{
+    position: center;
+    width: 350px;
+    height: 400px;;
+}
 
 
 .collegemap{
@@ -164,6 +178,7 @@ nav ul li a{
     width:50%;
     height:auto;
     
+    
 
 }
 
@@ -171,6 +186,7 @@ nav ul li a{
     float: right;
     width:50%;
     height:auto;
+    
 
 }
 
@@ -178,13 +194,24 @@ nav ul li a{
     float: right;
     width:90px;
     height:auto;
+
+}
+
+.facts{
+    padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-style:double;
+     border-color: rgb(59, 35, 2);
+     text-align: center;
 }
     
     
  
  .space{
     text-align: center;
-    font-size: 14px;
+   
 
 
  }
@@ -213,32 +240,39 @@ nav ul li a{
 
 
  table{
-    width:flex;
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+
 }
 
-
-
-
-
-
-
-
- 
- tr{
-     padding:10px 4px;
-     text-align: center
+tr{
+     padding:3px 1px;
+     
      
      
  }
  td{
-     padding-left: 10px;
-     padding-right: 10px;
-     padding-top: 10px;
-     padding-bottom: 10px;
+     padding-left: 1px;
+     padding-right: 1px;
+     padding-top: 1px;
+     padding-bottom: 1px;
      border-style: solid;
      border-color: rgb(51, 33, 7);
    
  
+ }
+
+ @media(max-width){
+    table{
+        width:100%;
+}
+
+td{
+    padding: 1px;
+    font-size:12px;
+}
  }
 
 
@@ -265,7 +299,7 @@ nav ul li a{
 
 
 .cour{
-    position: left;
+   
     width: 650px;
     height: auto;;
     border-style:solid;
@@ -275,8 +309,10 @@ nav ul li a{
 
 }
 
+
+
 .des{
-    position: right;
+
     width: 650px;
     height: auto;;
     border-style:solid;
@@ -295,6 +331,15 @@ nav ul li a{
 
    
 }
+
+
+
+#image{
+    width:100%;
+    height: auto;
+    
+}
+
 
     
  footer{

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+
+<meta charset="uft-8">
+<meta name="description" content="Cantor college page for appoinments" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Appointment Form </title>
+<link rel="stylesheet" href="stylesheet/mobile.css"/>
+<link
+      rel="stylesheet"
+      type="text/style"
+      media="only screen and (min-width:720px)"
+      href="stylesheet/desktop.css"
+    />
+<script src="js/image.js" ></script>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+<header>
+   
+
+
+
+
+<nav>
+
+    <ul>
+    <li><a href="index.html"> Home </a></li>
+    <li><a href="aboutus.html"> About us </a></li>
+    <li><a href="htfu.html"> How to find us</a></li>
+    <li><a href="courses.html"> Courses</a></li>
+    <li><a href="facilities.html"> Facilities</a></li>
+    <li><a href="learnre.html"> Learning resources</a></li>
+    <li><a href="infoforstaff.html"> Information for staff</a></li>
+    <li><a href="infoforstud.html"> Information for students</a></li>
+    <li><a href="wwb.html"> Working with bussiness</a></li>
+    
+    </ul>
+</nav>
+
+
+<img src = images/ban1.jpg alt = "im" id="Images" width = "100%">
+
+<p><image src=images/log.png alt="lolef" class="right"></p>
+   
+
+    <h1><a> <strong>  Cantor College </strong> </a></h1>
+
+<br>
+
+</header>
+
+<main>
+ <div class = facts>
+
+
+    <h2> Appointment Form </h2>
+
+    <form action="/submit_form" method="post"
+    autocomplete="on">
+    <legend> <strong> Student Information </strong> </legend>
+    <br>
+    <label for="StudentID">StudentID : </label>
+    <input type="text" id="StudentID" name="StudentID" required> <br>
+    <label for="fname">First Name : </label>
+    <input type="text" id="fname" name="fname" required> <br>
+    <label for="Lname">Last Name : </label>
+    <input type="text" id="Lname" name="Lname" required> <br>
+    <label for="email">Email : </label>
+    <input type="email" id="email" name="email" required> <br>
+    <label for="courselevel-choice"> Are you on a postgraduate or an undergraduate course? </label>
+    <input id="courselevel-choice" list="courselevel-options">
+           <datalist id="courselevel-options">
+            <option value="undergraduate"></option>
+            <option value="postgraduate"></option>
+         </datalist>
+         <br>
+        <label for="cname">Course Name : </label>
+         <input type="text" id="cname" name="cname" required>
+          <br>
+    <input type="submit" value="submit">
+</form>
+
+</div>
+
+
+    
+</main>
+
+<footer>
+    
+    <p> Contact Us  </p>
+    <p> Tel:(01321) 2340 235 </p>
+     <p>  Fax: (01321) 2340 236 </p>
+     <p>  Email: info@cantorcollege.ac.uk
+                </p>
+                <P class = "copyr" >copyright &copy;2024</P>
+</footer>
+
+
+</div>
+
+</body>
