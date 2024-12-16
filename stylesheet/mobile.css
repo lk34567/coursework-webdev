@@ -219,13 +219,7 @@ body{
 }
 
 
-.collegemap{
 
-    position: center;
-    width: 700px;
-    height: auto;;
-
-}
 
 .sideleft{
     float: left;
@@ -298,13 +292,15 @@ body{
     border-collapse: collapse;
     table-layout: fixed;
     
+    
 
 }
 
 tr{
      padding:3px 1px;
+
      
-     
+
      
  }
  td{
@@ -314,6 +310,7 @@ tr{
      padding-bottom: 1px;
      border-style: solid;
      border-color: rgb(51, 33, 7);
+     font-size: 10px;
    
  
  }
@@ -322,10 +319,14 @@ tr{
     table{
         width:100%;
 }
+tr{
+    padding:3px 1px;
+}
+     
 
 td{
     padding: 1px;
-    font-size:12px;
+    font-size:10px;
 }
  }
 
@@ -358,7 +359,7 @@ td{
     height: auto;;
     border-style:solid;
     border-color: #120c02;
-    padding: 5px;
+    padding: 4px;
     
     
 
